@@ -9,9 +9,9 @@ https://codepen.io/fataah123/pen/yLyRxzB
     4. What is the h1 tag used for? How many times should I use it on a page?
     H1 tag is used for titles. You should only use it once on a page
     5. Name two tags that have required attributes
-    ID, class
+    ID, class // img a  src a href
     6. What do we put in the head of our HTML document? 
-    <header></header>
+    <header></header> // title
     7. What is an id? 
     an attribute that specifies that a tag is unique and usually will be pointed at in CSS
     an ID is a tag that has only
@@ -26,13 +26,13 @@ https://codepen.io/fataah123/pen/yLyRxzB
     12. How many times can I use the same class on a page? 
     as many times as you like
     13. How do I get my link to open in a new tab?
-    fork it
+    fork it // <a href="asduhasdjugajf.com" _target="blank">
     14. What is the alt attribute used for? 
-    to display images
+    to display images // alternative text in case image does not show
     15. How do I reference an id?
     #
     16. What is the difference between a section and a div
-    section represents a part of a doc or app, div represents what is inside of it
+    section represents a part of a doc or app, div represents what is inside of it // same thing, section is semantic
     17. What is CSS used for? 
     styling HTML
     18. How to we select an element? Example - every h2 on the page
@@ -44,11 +44,11 @@ https://codepen.io/fataah123/pen/yLyRxzB
     20. How do we select classes in CSS?
     .
     21. How do we select a p element with a single class of “human””?
-    .human p{}
+    .human p{} p.human
     22. What is a parent child selector? When would this be useful? 
     selects all elements that that are children of a specified parent. can be useful when having multiple paragraphs
     23. How do you select all links within a div with the class of sidebar?
-    div.sidebar
+    div.sidebar div .sidebar {
     24. What is a pseudo selector?
     a pseudo selector allows you to select specific tags
     25. What do we use the change the spacing between lines?
@@ -71,7 +71,7 @@ https://codepen.io/fataah123/pen/yLyRxzB
     rm, careful because theres no going back 
     34. Why should I use version control? 
     documents/apps undergo a lot of revision, it helps identify differences between two files 
-    35. How often should I commit to github?
+    35. How often should I commit to github? // often
     36. What is the command we would use to push our repo up to github? 
     git push origin 'name'
     37. Walk me through Lambda's git flow. 
